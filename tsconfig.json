@@ -1,9 +1,11 @@
 {
 	"extends": "./.svelte-kit/mesaidesvelo.fr/tsconfig.json",
 	"compilerOptions": {
-		"types": ["bun-types"],
+		"types": ["node", "bun-types"],
 		"noEmit": true,
 		"allowJs": true,
+		"checkJs": true,
+		"skipLibCheck": true,
 		"target": "esnext"
 	},
 	"include": ["src/**/*"],
