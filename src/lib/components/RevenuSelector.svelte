@@ -213,7 +213,7 @@
 
 {#if numberFieldIsRequired || displayedThresholds.length > 0}
 	<div class="mt-6">
-		Quel est votre revenu net mensuel (quotient familial) ? <span
+		Quel est votre revenu net mensuel à l'échelle du foyer (quotient familial) ? <span
 			title="Plus d'informations"
 			class="cursor-pointer"
 			on:click={() => (showExplanations = !showExplanations)}
